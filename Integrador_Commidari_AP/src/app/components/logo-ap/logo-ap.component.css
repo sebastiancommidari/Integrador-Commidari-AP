@@ -1,0 +1,13 @@
+#logoAP{
+    height: 45px;
+    margin: 12px;
+    border-radius: 10px;
+    border: solid 3px;
+    border-color: white;
+}
+
+#textoLogo{
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
