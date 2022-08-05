@@ -30,10 +30,13 @@ a{
 button{
     background-color: #231f20;
     border: solid 3px;
+    font-weight: 500;
+    margin-right: 7px;
 }
 
 button:hover{
-    border-color: #fbb217; 
+    border-color: #fbb217;
+    background-color: #443c34;
 }
 
 button:focus {
