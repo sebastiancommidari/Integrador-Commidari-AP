@@ -2,7 +2,6 @@ nav{
     background-color: #231f20;
 }
 
-app-redes{
-    float: right;
-    
-}
+.navbar .navbar-toggler:focus {
+    color: #fbb217;
+  } 

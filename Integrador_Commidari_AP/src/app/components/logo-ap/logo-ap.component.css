@@ -1,6 +1,7 @@
 #logoAP{
     height: 45px;
-    margin: 12px;
+    margin: 6px;
+    margin-right: 12px;
     border-radius: 10px;
     border: solid 3px;
     border-color: white;
@@ -10,4 +11,20 @@
     color: white;
     font-size: larger;
     font-weight: 500;
+}
+
+#textoLogo:after{
+    content:"";
+    position: absolute; 
+    background-color: #fbb217;
+    height: 2px;
+    width: 0;
+    left: 88px;
+    bottom: 0px;
+    margin-bottom: 21px;
+    transition: 0.3s;
+}
+
+#textoLogo:hover:after{
+    width:309px;
 }
