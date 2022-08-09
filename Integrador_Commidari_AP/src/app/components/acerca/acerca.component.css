@@ -1,0 +1,54 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: #231f20;
+    color: white;
+}
+
+img{
+    margin: auto;
+  display: block;
+}
+
+@media (min-width: 576px){
+#perfil{
+    position: absolute;
+    width: 20%;
+    border-radius: 100%;
+    filter: drop-shadow(0 0 2rem black);
+    left: 7%;
+    top: 440px;
+    }
+}
+
+@media (max-width: 575px){
+    #perfil{
+        position: absolute;
+        width: 50%;
+        border-radius: 100%;
+        filter: drop-shadow(0 0 2rem black);
+        left: 25%;
+        top: 520px;
+    }
+    
+    #nombre{
+        margin-top: 40px;
+    }
+
+    #acercade{
+        margin:5%;
+    }
+}
+
+#nombre{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#titulo{
+    font-size: larger;
+    text-align: center;
+}

@@ -1,44 +1,54 @@
-ul{
-    list-style: none;
-}
-
-li{
-    display: inline;
-}
-
 a{
     color: white;
 }
 
+#github:hover{
+    filter: drop-shadow(0 0 1rem grey);
+}
+
 #instagram:hover{
-    color: #E1306C; 
+    color: #E1306C;
+    filter: drop-shadow(0 0 1rem #E1306C);
 }
 
 #whatsapp:hover{
-    color: #4dca5a; 
+    color: #4dca5a;
+    filter: drop-shadow(0 0 1rem #4dca5a); 
 }
 
 #linkedin:hover{
-    color: #2596be; 
+    color: #2596be;
+    filter: drop-shadow(0 0 1rem #2596be); 
 }
 
 
 #facebook:hover{
-    color: #1876f0; 
+    color: #1876f0;
+    filter: drop-shadow(0 0 1rem #1876f0);
 }
 
 button{
     background-color: #231f20;
     border: solid 3px;
     font-weight: 500;
-    margin-right: 7px;
+    margin-right: 6px;
 }
 
 button:hover{
     border-color: #fbb217;
-    background-color: #443c34;
+    filter: drop-shadow(0 0 0.20rem #fbb217);
+    background-color: #231f20;
 }
 
 button:focus {
     border-color: #fbb217; 
   } 
+
+  @media (max-width: 575px){
+    #github {
+        margin-left: 9px;
+    }
+    a{
+        margin-top: 6px;
+    }
+    }

@@ -1,0 +1,16 @@
+nav{
+    background-color: #231f20;
+}
+
+.navbar .navbar-toggler{
+    float: right;
+}
+
+.navbar .navbar-toggler:focus {
+    color: #fbb217;
+    filter: drop-shadow(0 0 0.20rem #fbb217);
+  } 
+
+  @media (max-width: 575px){
+    
+  }
