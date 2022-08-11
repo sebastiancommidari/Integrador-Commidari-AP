@@ -2,6 +2,13 @@ nav{
     background-color: #231f20;
 }
 
+
+/*MENÚ RESPONSIVE*/
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
 .navbar .navbar-toggler{
     float: right;
 }
@@ -11,6 +18,96 @@ nav{
     filter: drop-shadow(0 0 0.20rem #fbb217);
   } 
 
+
+
+  /*LOGO*/
+
+  #logoAP{
+    height: 45px;
+    margin: 5px;
+    margin-right: 12px;
+    border-radius: 10px;
+    border: solid 3px;
+    border-color: white;
+}
+
+#textoLogo{
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    filter: drop-shadow(0 0 0.50rem black);
+}
+
+#textoLogo:after{
+    content:"";
+    position: absolute; 
+    background-color: #fbb217;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 74px;
+    transition: 0.3s;
+    filter: drop-shadow(0 0 0.05rem #fbb217);
+}
+
+#textoLogo:hover:after{
+    width:309px;
+}
+
+
+
+/*REDES*/
+
+.nav-link{
+    color: white;
+}
+
+#github:hover{
+    filter: drop-shadow(0 0 1rem grey);
+}
+
+#instagram:hover{
+    color: #E1306C;
+    filter: drop-shadow(0 0 1rem #E1306C);
+}
+
+#whatsapp:hover{
+    color: #4dca5a;
+    filter: drop-shadow(0 0 1rem #4dca5a); 
+}
+
+#linkedin:hover{
+    color: #2596be;
+    filter: drop-shadow(0 0 1rem #2596be); 
+}
+
+#facebook:hover{
+    color: #1876f0;
+    filter: drop-shadow(0 0 1rem #1876f0);
+}
+
+#login{
+    background-color: #231f20;
+    border: solid 3px;
+    font-weight: 500;
+    margin-right: 7px;
+    margin-top: 5px;
+    height: 40px;
+    padding-top: 4px;
+}
+
+#login:hover{
+    border-color: #fbb217;
+    filter: drop-shadow(0 0 0.20rem #fbb217);
+    background-color: #231f20;
+}
+
+#login:focus {
+    border-color: #fbb217; 
+  } 
+
   @media (max-width: 575px){
-    
-  }
+    #github {
+        margin-left: 9px;
+    }
+    }

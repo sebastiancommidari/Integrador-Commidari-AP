@@ -4,8 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
-import { RedesComponent } from './components/redes/redes.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { NavComponent } from './components/nav/nav.component';
 import { AcercaComponent } from './components/acerca/acerca.component';
@@ -14,8 +12,6 @@ import { AcercaComponent } from './components/acerca/acerca.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    LogoAPComponent,
-    RedesComponent,
     BannerComponent,
     NavComponent,
     AcercaComponent
