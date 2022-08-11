@@ -1,0 +1,38 @@
+.row{
+    padding: 20px;
+    margin: 0;
+}
+
+div {
+    color: white;
+    background-color: #2c2828;
+}
+
+h1, h3{
+    display: inline;
+}
+
+.row h1{
+    padding-bottom: 12px;
+}
+
+.trabajos{
+    background-color: #231f20;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+
+@media (max-width: 575px){
+    
+    h1, h3{
+        padding: 5px;
+    }
+    
+    
+    .trabajos{
+        margin: 0;
+        padding: 30px;
+    }
+
+    }
