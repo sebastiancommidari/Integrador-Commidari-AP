@@ -107,6 +107,11 @@ nav{
   } 
 
   @media (max-width: 575px){
+
+    #textoLogo{
+        font-size: small;
+    }
+
     #github {
         margin-left: 9px;
     }

@@ -14,12 +14,18 @@ h1, h3{
 
 .row h1{
     padding-bottom: 12px;
+    padding-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    background-color: #231f20;
+    width: fit-content;
 }
 
 .trabajos{
     background-color: #231f20;
     margin-left: 50px;
     padding: 20px;
+    border-radius: 1%;
 }
 
 
@@ -33,6 +39,7 @@ h1, h3{
     .trabajos{
         margin: 0;
         padding: 30px;
+        padding-left: 10px;
     }
 
     }
