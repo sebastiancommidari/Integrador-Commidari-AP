@@ -51,7 +51,7 @@ nav{
 }
 
 #textoLogo:hover:after{
-    width:309px;
+    width:80%;
 }
 
 
@@ -114,5 +114,9 @@ nav{
 
     #github {
         margin-left: 9px;
+    }
+
+    #textoLogo:hover:after{
+        width:73%;
     }
     }
